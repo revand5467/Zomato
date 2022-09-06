@@ -80,7 +80,33 @@ class login extends StatelessWidget {
           ]),
           SizedBox(height: 4),
           Text('By continuing , you agree to our ',
-              style: TextStyle(color: Colors.grey, fontSize: 12))
+              style: TextStyle(color: Colors.grey, fontSize: 12)),
+          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
+            Text(
+              'Terms of Service',
+              style: TextStyle(
+                fontSize: 12,
+                color: Colors.grey,
+                decoration: TextDecoration.underline,
+              ),
+            ),
+            Text(
+              'Privacy policy',
+              style: TextStyle(
+                fontSize: 12,
+                color: Colors.grey,
+                decoration: TextDecoration.underline,
+              ),
+            ),
+            Text(
+              'Privacy policy',
+              style: TextStyle(
+                fontSize: 12,
+                color: Colors.grey,
+                decoration: TextDecoration.underline,
+              ),
+            ),
+          ])
         ]),
       ),
     );
